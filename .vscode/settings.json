@@ -1,0 +1,49 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MySQL",
+            "name": "UserManagement",
+            "connectString": "server=DESKTOP-M35CM1R; database=UserDatabase; integrated security=true"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3306,
+            "driver": "MySQL",
+            "name": "User Management",
+            "database": "DESKTOP-M35CM1R",
+            "username": "UserDatabase",
+            "password": ""
+        },
+        {
+            "mssqlOptions": {
+                "appName": "SQLTools",
+                "useUTC": true,
+                "encrypt": true
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MSSQL",
+            "connectString": "DESKTOP-M35CM1R",
+            "name": "UserManagement"
+        },
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "driver": "MariaDB",
+            "connectString": "server=DESKTOP-M35CM1R; database=UserDatabase; integrated security=true\"",
+            "name": "UserManagement"
+        }
+    ]
+}
